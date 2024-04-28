@@ -1,5 +1,8 @@
 # CBTC
 CipherByte Technologies Internship Tasks for Web Development
-Table of contents
+<br>
+Table of contents:
+<br>
 Task 1: Personal Portfolio
+<br>
 Task 2: To do list app
