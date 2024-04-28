@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <header>
+        <nav id>
+            <div class="left">Shivam's Personal Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home </a></li>
+                    <li><a href="/"> About</a></li>
+                    <li><a href="/">Services </a></li>
+                    <li><a href="/">Contact Me </a></li>
+
+                </ul>
+
+            </div>
+
+
+        </nav>
+    </header>
+    <main>
+
+
+        <section class="firstSection">
+            <div class="leftSection">
+                <p>Hi, I'm <span>Shivam Sinha </span></p>
+                <div>"Aspiring
+                    <span class="color"> Web Developer</span> <span>"</span>
+                </div>
+
+                <span id="element" class="span2"></span>
+
+
+            </div>
+
+            <div class="rightSection"><img src="developer-image.png"></div>
+
+
+
+        </section>
+
+        <section class="secondSection image ">
+            <h1>About Me</h1>
+            <div class="about">
+
+
+                Hello! I am Shivam , currently pursuing my undergraduate degree.
+                My journey into the world of web development began with a deep-seated passion for creating visually
+                appealing and user-friendly websites.
+                I am committed to enhancing my skills through ongoing learning and staying updated with the latest
+                trends and technologies in the industry.
+
+            </div>
+
+
+        </section>
+        <section class="thirdSection">
+            <h1> My Skills </h1>
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="htmllogo.png" alt="">
+                    <div class="vertical-title">HTML Language </div>
+                    <div class="vertical-desc"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos
+                        eum vel ea reiciendis, debitis veritatis odio quisquam placeat, facilis explicabo rerum labore
+                        totam.
+                    </div>
+
+                </div>
+                <div class="vertical">
+                    <img class="image-top2" src="csslogo.png" alt="">
+                    <div class="vertical-title2">CSS </div>
+                    <div class="vertical-desc2"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos
+                        eum vel ea reiciendis, debitis veritatis odio quisquam placeat, facilis explicabo rerum labore
+                        totam.
+                    </div>
+
+                </div>
+                <div class="vertical">
+                    <img class="image-top3" src="jslogo.png" alt="">
+                    <div class="vertical-title3">Javascript </div>
+                    <div class="vertical-desc3"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos
+                        eum vel ea reiciendis, debitis veritatis odio quisquam placeat, facilis explicabo rerum labore
+                        totam.
+                    </div>
+
+                </div>
+
+
+            </div>
+
+
+
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3> Shivam's Portfolio</h3>
+            </div>
+            <div class="footer-second">
+                <input type="text" placeholder="Enter your name">
+                <input class="btn" type="button" value="Contact us">
+            </div>
+        </div>
+        <div class="rights">My Personal Portfolio|All Copyrights &copy reserved </div>
+
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Typed Js for animated text  -->
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <script>
+
+        var typed = new Typed('#element', {
+            strings: ['Currently pursuing Engineering', 'Tech Enthusiast', 'showcasing skills in progress..'],
+            typeSpeed: 50,
+            onComplete: function (self) { self.cursor.remove() },
+
+            /*This oncomplete function will remove the cursor pointing/blinking after the sentence finishes.*/
+        });
+
+    </script>
+</body>
+
+</html>
