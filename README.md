@@ -1,5 +1,5 @@
-# CBTC
-CipherByte Technologies Internship Tasks for Web Development
+# Web Development
+Projects
 <br>
 Table of contents:
 <br>
